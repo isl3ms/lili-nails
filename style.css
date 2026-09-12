@@ -192,4 +192,8 @@ box-sizing: border-box;
     transform: translateY(-3px);
     opacity: 0.85;
 }
-
+@media (max-width: 1000px) {
+    .service-container {
+        grid-template-columns: 300px;
+    }
+}
