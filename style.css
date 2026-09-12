@@ -52,7 +52,8 @@ nav a:hover {
 /* Hero */
 
 .hero {
-    min-height: calc(100vh - 80px);
+    min-height: 350px;
+    height: 350px;
 
     display: flex;
     flex-direction: column;
