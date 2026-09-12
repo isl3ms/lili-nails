@@ -211,3 +211,54 @@ button:hover {
         grid-template-columns: 300px;
     }
 }
+.contact {
+    padding: 80px 8%;
+    text-align: center;
+    background: #f9e8ed;
+}
+
+.contact h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 45px;
+    color: #8d6575;
+    margin-bottom: 15px;
+}
+
+.contact-intro {
+    color: #806f75;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    width: 230px;
+    padding: 25px 20px;
+    background: #fffaf8;
+    border-radius: 18px;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+}
+
+.contact-card h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    color: #9a6e7f;
+    margin-bottom: 12px;
+}
+
+.contact-card p {
+    color: #806f75;
+    font-size: 14px;
+    line-height: 1.6;
+}
