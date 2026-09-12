@@ -182,3 +182,19 @@ button:hover {
     font-weight: 600;
     color: #a87588;
 }
+.book-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #a87588;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.book-button:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
+}
