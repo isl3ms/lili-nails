@@ -52,40 +52,34 @@ nav a:hover {
 /* Hero */
 
 .hero {
-    min-height: 350px;
     height: 350px;
+    min-height: 350px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    padding: 40px;
+    text-align: center;
+
+    padding: 30px 20px;
 
     background: #f9e8ed;
 }
 
 .hero h2 {
     font-family: 'DM Serif Display', serif;
-    font-size: clamp(50px, 7vw, 90px);
-    line-height: 1.05;
-
-    color: #8d6575;
-
-    margin-bottom: 25px;
+    font-size: 48px;
+    line-height: 1.15;
+    color: #9a6e7f;
+    margin-bottom: 15px;
 }
 
 .hero p {
-    max-width: 500px;
-
-    font-size: 17px;
-    font-weight: 300;
-
-    color: #6d5b61;
-
-    margin-bottom: 35px;
+    font-size: 16px;
+    color: #806f75;
+    margin-bottom: 0;
 }
-
 /* Button */
 
 button {
